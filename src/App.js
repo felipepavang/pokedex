@@ -1,8 +1,12 @@
-
+import GlobalStyle from './components/globalStyles'
+import Header from './components/Header/Header'
 
 function App() {
   return (
-    <h1>Pokedex</h1>
+    <>
+      <GlobalStyle />
+      <Header />
+    </>
   );
 }
 
