@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import logo from '../../images/logo.svg' 
+import Menu from '../Menu/Menu'
 
 const Container = styled.header`
   width: 100%;
@@ -10,7 +11,7 @@ const Container = styled.header`
   justify-content: space-around;
 
   .logo {
-    width: 10%;
+    width: 12%;
   }
 `
 
@@ -18,6 +19,7 @@ export default function Header() {
   return (
     <Container>
       <img src={logo} alt="Logo da Pokedex" className="logo" />
+      <Menu />
     </Container>
   )
 }
