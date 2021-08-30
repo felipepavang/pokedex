@@ -6,14 +6,14 @@ const MenuContainer = styled.div`
   align-items: center;
   justify-content: space-around;
 
-  .menu-link {
+  a {
     text-decoration: none;
     font-size: 20px;
     color: white;
     transition: 0.3s ease-in-out;
   }
 
-  .menu-link:hover {
+  a:hover {
     transform: scale(1.1)
   }
 `
@@ -26,11 +26,7 @@ export default function Menu() {
 
   return (
     <MenuContainer>
-      {links.map(link => {
-        return (
-          <a href="#" className="menu-link">{link}</a>
-        )
-      })}
+      {links.map(link => <a href="#">{link}</a>)}
     </MenuContainer>
   )
 }
