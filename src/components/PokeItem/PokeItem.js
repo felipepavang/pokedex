@@ -49,7 +49,7 @@ export default function PokeItem({ name, id, img, favoriteImg }) {
   return (
     <Card>
       <PokeImage src={img} alt={`Imagem do ${name}`} />
-      <PokeName>Pikachu</PokeName>
+      <PokeName>{name}</PokeName>
       <Content>
         <PokeId>{id}</PokeId>
         <FavButton><FavImage src={favoriteImg} alt='Botão de favorito' /></FavButton>
