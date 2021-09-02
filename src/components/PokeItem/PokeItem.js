@@ -1,16 +1,18 @@
 import React from 'react'
-import { Card, PokeImage, PokeName, Content, PokeId } from './styles/styles'
-import FavButton from '../FavButton/FavButton'
+import { Card, PokeImage, PokeName, Content, PokeId } from './styles'
+import FavButton from '../FavButton'
 
-export default function PokeItem({ name, id, img }) {
+function PokeItem({ name, id, img, isSelected }) {
   return (
     <Card>
       <PokeImage src={img} alt={`Imagem do ${name}`} />
       <PokeName>{name}</PokeName>
       <Content>
         <PokeId>{id}</PokeId>
-        <FavButton isSelected={isSelected}></FavButton>
+        <FavButton isSelected={isSelected} />
       </Content>
     </Card>
   )
 }
+
+export default PokeItem

@@ -1,10 +1,14 @@
 import React from 'react'
-import Button from '../PokeItem/styles/styles'
+import Button from './styles'
+import favorited from '../../images/favorited.png'
+import unfavorited from "../../images/unfavorited.png";
 
-export default function FavButton({ isSelected }) {
+function FavButton({ isSelected }) {
   return (
     <Button>
-      <img alt="Botão de Favorito"/>
+      <img src={isSelected ? favorited : unfavorited} alt="Botão de Favorito"/>
     </Button>
   )
 }
+
+export default FavButton
