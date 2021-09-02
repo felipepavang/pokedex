@@ -10,6 +10,7 @@ const Card = styled.div`
   text-align: center;
   color: #1b1b1b;
 `
+
 const PokeImage = styled.img`
   display: block;
   width: 70%;
@@ -33,15 +34,4 @@ const PokeId = styled.p`
   font-size: 20px;
 `
 
-const FavButton = styled.button`
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
-`
-
-const FavImage = styled.img`
-  margin: 0;
-  width: 32px;
-`
-
-export { Card, PokeImage, PokeName, Content, PokeId, FavButton, FavImage }
+export { Card, PokeImage, PokeName, Content, PokeId }
