@@ -1,8 +1,10 @@
 import React from 'react'
-import { Bar } from './styles/styles'
+import { Bar } from './styles'
 
-export default function FavoriteBar() {
+function FavoriteBar() {
   return (
     <Bar></Bar>
   )
 }
+
+export default FavoriteBar
