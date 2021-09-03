@@ -7,6 +7,7 @@ const Card = styled.div`
   align-items: center;
   border-radius: 5px;
   border: 1px solid black;
+  box-shadow: 1px 1px 5px black;
 `
 
 const Image = styled.img`
