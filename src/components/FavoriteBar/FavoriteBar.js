@@ -1,9 +1,12 @@
 import React from 'react'
-import { Bar } from './styles'
+import { Bar, Title, Container } from './styles'
 
 function FavoriteBar() {
   return (
-    <Bar></Bar>
+    <Bar>
+      <Title>Team</Title>
+      <Container />
+    </Bar>
   )
 }
 
