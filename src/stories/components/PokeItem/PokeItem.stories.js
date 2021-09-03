@@ -1,5 +1,4 @@
 import React from 'react'
-
 import PokeItem from '../../../components/PokeItem'
 
 export default {

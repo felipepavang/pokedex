@@ -1,12 +1,11 @@
-import React from "react";
-
-import FavButton from "../../../components/FavButton";
+import React from 'react'
+import FavButton from '../../../components/FavButton'
 
 export default {
-  title: "PokeList/FavButton",
-  component: FavButton,
-};
+  title: 'PokeList/FavButton',
+  component: FavButton
+}
 
-export const FavButtonSelected  = () => <FavButton isSelected />;
+export const FavButtonSelected  = () => <FavButton isSelected />
 
-export const FavButtonUnselected = () => <FavButton isSelected={false} />;
+export const FavButtonUnselected = () => <FavButton isSelected={false} />
