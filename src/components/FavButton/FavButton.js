@@ -1,7 +1,7 @@
 import React from 'react'
 import Button from './styles'
 import favorited from '../../images/favorited.png'
-import unfavorited from "../../images/unfavorited.png";
+import unfavorited from '../../images/unfavorited.png'
 
 function FavButton({ isSelected }) {
   return (
