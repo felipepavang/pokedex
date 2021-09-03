@@ -20,7 +20,7 @@ const Title = styled.h2`
   line-height: 50px;
   border-radius: 5px 5px 0 0;
   text-align: center;
-  background-color: #3b4cca;
+  background-color: #353a40;
   color: #ffffff;
 `
 

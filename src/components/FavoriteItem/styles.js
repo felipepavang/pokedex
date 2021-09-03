@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const Card = styled.div`
-  width: 100px;
+  width: 120px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -11,12 +11,14 @@ const Card = styled.div`
 
 const Image = styled.img`
   width: 100%;
+  background-color: #6c757e;
+  border-bottom: 1px solid black;
 `
 
 const Title = styled.h4`
   display: block;
   width: 100%;
-  margin: 12px;
+  margin: 8px;
   text-align: center;
 `
 
