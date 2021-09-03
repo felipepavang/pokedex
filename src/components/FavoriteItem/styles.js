@@ -1,6 +1,7 @@
 import styled from 'styled-components'
 
 const Card = styled.div`
+  position: relative;
   width: 120px;
   display: flex;
   flex-direction: column;
@@ -9,7 +10,7 @@ const Card = styled.div`
   border: 1px solid black;
   box-shadow: 1px 1px 5px black;
   transition: all 0.2s;
-  transform: scale(0.9);
+  transform: scale(0.95);
   cursor: pointer;
 
   :hover {
