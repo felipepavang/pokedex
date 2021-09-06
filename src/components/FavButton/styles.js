@@ -7,7 +7,7 @@ const Button = styled.button`
 
   img {
     margin: 0;
-    width: 32px;
+    width: 2rem;
   }
 `
 

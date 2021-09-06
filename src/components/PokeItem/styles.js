@@ -2,11 +2,11 @@ import styled from "styled-components"
 
 const Card = styled.div`
   width: 200px;
-  height: 250px;
-  margin: 10px;
+  height: 15.5rem;
+  margin: 0.5rem;
   background-color: white;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 0.5rem;
   text-align: center;
   color: #1b1b1b;
 `
@@ -14,11 +14,11 @@ const Card = styled.div`
 const PokeImage = styled.img`
   display: block;
   width: 70%;
-  margin: 5px auto 0px auto;
+  margin: 0.5rem auto 0 auto;
 `
 
 const PokeName = styled.h2`
-  margin: 5px 0;
+  margin: 0.5rem 0;
 `
 
 const Content = styled.div`
@@ -26,12 +26,12 @@ const Content = styled.div`
   align-items: center;
   justify-content: space-around;
   width: 100%;
-  margin-top: 20px;
+  margin-top: 1rem;
 `
 
 const PokeId = styled.p`
   margin: 0;
-  font-size: 20px;
+  font-size: 1.5rem;
 `
 
 export { Card, PokeImage, PokeName, Content, PokeId }

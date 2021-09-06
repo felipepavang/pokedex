@@ -5,12 +5,12 @@ const Button = styled.button`
   top: -10px;
   right: -10px;
   padding: 0;
-  width: 30px;
-  height: 30px;
+  width: 1.8rem;
+  height: 1.8rem;
   background-color: red;
   color: white;
   border: 1px solid black;
-  border-radius: 50%;
+  border-radius: 1.5rem;
   cursor: pointer;
   opacity: 0.8;
 `

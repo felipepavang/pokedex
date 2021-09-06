@@ -8,9 +8,9 @@ const MenuContainer = styled.div`
 
   a {
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: white;
-    transition: 0.3s ease-in-out;
+    transition: 0.2s ease-in-out;
   }
 
   a:hover {
