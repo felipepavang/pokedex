@@ -1,10 +1,10 @@
 import styled from "styled-components"
 
 const Card = styled.div`
-  width: 200px;
-  height: 15.5rem;
-  margin: 0.5rem;
-  background-color: white;
+  width: 250px;
+  height: 18rem;
+  margin: 1rem 0;
+  background-color: #ffffff;
   border: 1px solid black;
   border-radius: 0.5rem;
   text-align: center;

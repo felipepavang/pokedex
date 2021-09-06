@@ -1,8 +1,7 @@
 import styled from 'styled-components'
 
 const ListContainer = styled.div`
-  width: 70%;
-  height: fit-content;
+  width: 50%;
   margin: 1.5rem auto;
   background-color: #ffffff;
   display: flex;
@@ -28,9 +27,10 @@ const Title = styled.h2`
 
 const PokeContainer = styled.div`
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  justify-items: center;
 `
 
 export { ListContainer, Title, PokeContainer }
