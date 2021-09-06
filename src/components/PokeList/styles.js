@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
-const BarContainer = styled.div`
-  width: 50%;
+const ListContainer = styled.div`
+  width: 70%;
+  height: fit-content;
   margin: 1.5rem auto;
   background-color: #ffffff;
   display: flex;
@@ -14,6 +15,7 @@ const BarContainer = styled.div`
 
 const Title = styled.h2`
   display: block;
+  height: 200px;
   margin: 0;
   height: 3rem;
   width: 100%;
@@ -24,13 +26,11 @@ const Title = styled.h2`
   color: #ffffff;
 `
 
-const CardContainer = styled.div`
+const PokeContainer = styled.div`
   width: 100%;
-  height: 100%;
-  margin: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
 `
 
-export { BarContainer, Title, CardContainer }
+export { ListContainer, Title, PokeContainer }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { Bar, Title, Container } from './styles'
+import { BarContainer, Title, CardContainer } from './styles'
 import FavoriteItem from '../FavoriteItem'
 
 function FavoriteBar() {
@@ -32,12 +32,12 @@ function FavoriteBar() {
   ]
 
   return (
-    <Bar>
+    <BarContainer>
       <Title>Team</Title>
-      <Container>
+      <CardContainer>
         {favoriteList.map(item => <FavoriteItem name={item.name} image={item.image}/>)}
-      </Container>
-    </Bar>
+      </CardContainer>
+    </BarContainer>
   );
 }
 
