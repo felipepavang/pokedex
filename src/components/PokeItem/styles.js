@@ -9,6 +9,7 @@ const Card = styled.div`
   border-radius: 0.5rem;
   text-align: center;
   color: #1b1b1b;
+  box-shadow: 1px 1px 5px black;
 `
 
 const PokeImage = styled.img`
@@ -19,6 +20,8 @@ const PokeImage = styled.img`
 
 const PokeName = styled.h2`
   margin: 0.5rem 0;
+  color: #ffffff;
+  background-color: #1b1b1b90;
 `
 
 const Content = styled.div`
