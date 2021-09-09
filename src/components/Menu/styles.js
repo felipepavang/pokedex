@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const MenuContainer = styled.div`
+const Container = styled.div`
   width: 20%;
   display: flex;
   align-items: center;
@@ -18,4 +18,4 @@ const MenuContainer = styled.div`
   }
 `;
 
-export default MenuContainer
+export default Container

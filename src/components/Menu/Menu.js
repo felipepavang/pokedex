@@ -1,10 +1,10 @@
 import React from 'react'
-import MenuContainer from './styles'
+import Container from './styles'
 
 export default function Menu({ links }) {
   return (
-    <MenuContainer>
+    <Container>
       {links.map(link => <a href="#">{link}</a>)}
-    </MenuContainer>
+    </Container>
   )
 }
