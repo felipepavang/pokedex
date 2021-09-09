@@ -6,4 +6,4 @@ export default {
   component: RemoveButton
 }
 
-export const Component = () => <RemoveButton>X</RemoveButton>
+export const Default = () => <RemoveButton>X</RemoveButton>

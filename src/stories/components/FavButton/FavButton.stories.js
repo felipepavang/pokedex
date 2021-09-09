@@ -3,9 +3,17 @@ import FavButton from '../../../components/FavButton'
 
 export default {
   title: 'PokeList/FavButton',
-  component: FavButton
+  component: FavButton,
+  argTypes: {
+    isSelected: {
+      name: 'Botão favorito selecionado?'
+    }
+  }
 }
 
-export const FavButtonSelected  = () => <FavButton isSelected />
+const Template  = (args) => <FavButton {...args} />
 
-export const FavButtonUnselected = () => <FavButton isSelected={false} />
+export const Default = Template.bind({})
+Default.args = {
+  isSelected: true
+}

@@ -3,12 +3,21 @@ import FavoriteItem from '../../../components/FavoriteItem'
 
 export default {
   title: 'FavoriteBar/Item',
-  component: FavoriteItem
+  component: FavoriteItem,
+  argTypes: {
+    name: {
+      name: 'Nome do Pokémon'
+    },
+    image: {
+      name: 'URL da imagem'
+    }
+  }
 }
 
-export const Component = () => (
-  <FavoriteItem
-    name="Articuno"
-    image="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png"
-  />
-)
+const Template = (args) => <FavoriteItem {...args} />
+
+export const Default = Template.bind({})
+Default.args = {
+  name: 'Articuno',
+  image: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/144.png'
+}

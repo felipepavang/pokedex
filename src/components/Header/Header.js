@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <Container>
       <img src={logo} alt="Logo da Pokedex" className="logo" />
-      <Menu />
+      <Menu links={['Home', 'Description']} />
     </Container>
   )
 }

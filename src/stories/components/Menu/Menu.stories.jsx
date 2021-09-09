@@ -3,7 +3,17 @@ import Menu from '../../../components/Menu'
 
 export default {
   title: 'Header/Menu',
-  component: Menu
+  component: Menu,
+  argTypes: {
+    links: {
+      name: 'Links do Menu'
+    }
+  }
 }
 
-export const Component = () => <Menu />
+const Template = (args) => <Menu {...args} />
+
+export const Default = Template.bind({})
+Default.args = {
+  links: ['Home', 'Description']
+}
